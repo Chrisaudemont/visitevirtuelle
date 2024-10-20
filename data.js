@@ -1,49 +1,6 @@
 var APP_DATA = {
   "scenes": [
-    {
-      "id": "0-facade",
-      "name": "Facade",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1911.5,
-      "initialViewParameters": {
-        "yaw": 0.21637847709788893,
-        "pitch": -0.35455361625629145,
-        "fov": 1.397892632121691
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.422316155481429,
-          "pitch": -0.07900231676100233,
-          "rotation": 0,
-          "target": "1-hall-rdc"
-        },
-        {
-          "yaw": 0.9021603614789768,
-          "pitch": 0.023207661002592417,
-          "rotation": 0,
-          "target": "25-garage"
-        }
-      ],
-      "infoHotspots": []
-    },
+   
     {
       "id": "1-hall-rdc",
       "name": "Hall RDC",
@@ -73,12 +30,6 @@ var APP_DATA = {
         "fov": 1.397892632121691
       },
       "linkHotspots": [
-        {
-          "yaw": 1.6183594701978485,
-          "pitch": 0.03648518838750903,
-          "rotation": 0,
-          "target": "0-facade"
-        },
         {
           "yaw": 2.1684331314224394,
           "pitch": 0.08386636140475545,
@@ -1175,12 +1126,7 @@ var APP_DATA = {
         "fov": 1.5707963267948966
       },
       "linkHotspots": [
-        {
-          "yaw": -0.2769306846296935,
-          "pitch": -0.053348608252278495,
-          "rotation": 0,
-          "target": "0-facade"
-        },
+        
         {
           "yaw": 2.543223801670618,
           "pitch": 0.22078821893570932,
